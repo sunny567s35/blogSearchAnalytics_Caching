@@ -9,6 +9,6 @@ const blogSearchRoute = require('./routes/blogSearch');
 app.use('/api/blog-stats', blogStatsRoute);
 app.use('/api/blog-search', blogSearchRoute);
 
-app.listen(port, () => {
+app.listen(process.env.PORT ||port, () => {
   console.log(`Server is running on port ${port}`);
 });
