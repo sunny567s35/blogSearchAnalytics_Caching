@@ -1,0 +1,2 @@
+# blogSearchAnalytics_Caching
+ 
